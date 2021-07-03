@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+@-ms-viewport{
+  width: device-width;
+}
+
+html, body {
+  overflow-x: hidden
+}
+
+body {
+  overflow: hidden !important;
+  width: 100%;
+  height: 100%;
+}
+
 
 body{
   background-color: rgb(230, 218, 207); 
